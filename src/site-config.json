@@ -1,0 +1,488 @@
+{
+  "business": {
+    "name": "Horizon Electrical",
+    "phone": "555-ele-r90",
+    "category": "electrical",
+    "city": "Dallas",
+    "state": "TX"
+  },
+  "design": {
+    "preset": {
+      "id": "electrical-trust-navy",
+      "categoryGroup": "electrical",
+      "name": "Trust Navy",
+      "recipeFile": "electrical/trust-navy.astro",
+      "colors": {
+        "primary": "#EAB308",
+        "primaryDark": "#A16207",
+        "primaryLight": "#faecc1",
+        "secondary": "#c79807",
+        "accent": "#1F2937",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#EAB308",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Exo 2",
+        "headingWeight": "700",
+        "bodyFont": "Roboto",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "electrical/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Reliable Electrical Services in Dallas",
+      "heroSubline": "Trusted local electricians serving North Texas since 2011. We handle everything from minor repairs to full-home rewiring with precision and care.",
+      "aboutTitle": "Our Dallas Electrical Experts",
+      "aboutText": [
+        "Founded in 2011, Horizon Electrical has been keeping Dallas homes safe and powered through scorching summers and unpredictable storms. Our team understands the unique electrical demands of Texas homes, from historic Tudors to modern high-rises.",
+        "We take pride in transparent pricing and meticulous workmanship, ensuring every outlet, panel, and fixture meets the highest safety standards. No job is too big or small for our licensed professionals.",
+        "As active members of the Dallas community, we support local schools and volunteer for weatherization projects to help neighbors stay safe during extreme weather."
+      ],
+      "valueProps": [
+        {
+          "title": "24/7 Emergency Service",
+          "description": "When a storm knocks out power or a circuit fails at midnight, we're there—fast."
+        },
+        {
+          "title": "Local Code Masters",
+          "description": "We know Dallas' specific electrical codes inside out, preventing costly rework."
+        },
+        {
+          "title": "Homeowner Education",
+          "description": "Every job includes a walkthrough so you understand your system's health."
+        },
+        {
+          "title": "No Surprise Pricing",
+          "description": "Upfront quotes with no hidden fees—just honest work at fair rates."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Electrical Safety Check Today",
+      "ctaSubline": "Call 555-ele-r90 for same-day service in Dallas and surrounding communities."
+    },
+    "services": [
+      {
+        "slug": "panel-upgrades",
+        "name": "Electrical Panel Upgrades",
+        "shortDescription": "Modernize your home's electrical heart for safety and capacity.",
+        "description": "Many Dallas homes still operate with 60-amp panels from the 1950s—dangerously outdated for today's devices. We replace these with 200-amp panels that handle AC units straining through 100°F summers and multiple appliance loads. Our process begins with a load calculation specific to your home's square footage and usage patterns.\n\nWe source panels from trusted manufacturers like Square D and Siemens, ensuring compatibility with Dallas' climate-driven power fluctuations. The upgrade includes AFCI breakers to prevent arc faults common in older Texas wiring. For historic homes in neighborhoods like Lake Highlands, we disguise exterior panels with custom enclosures that preserve curb appeal.",
+        "process": [
+          "Step 1: Complete load analysis and city permit filing",
+          "Step 2: Safe shutdown and removal of old equipment",
+          "Step 3: Installation of weather-resistant panel with surge protection",
+          "Step 4: Testing all circuits and demo of new system features"
+        ],
+        "benefits": [
+          "Prevent overheating during peak summer demand",
+          "Eliminate flickering lights from voltage drops",
+          "Meet insurance requirements for older homes",
+          "Prepare for EV charger or solar panel installation"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if my panel needs upgrading?",
+            "answer": "If your breakers trip frequently or your home has original 1950s-70s wiring, it's time. We'll check for rust, buzzing sounds, or double-tapped breakers during our free assessment."
+          },
+          {
+            "question": "Will this disrupt my power for days?",
+            "answer": "Most panel swaps take 6-8 hours. We coordinate with Oncor to minimize downtime and can provide temporary power for medical equipment if needed."
+          }
+        ]
+      },
+      {
+        "slug": "surge-protection",
+        "name": "Whole-Home Surge Protection",
+        "shortDescription": "Defend your electronics from Texas' violent thunderstorms.",
+        "description": "North Texas ranks #3 nationally for lightning strikes, with surges frying everything from smart fridges to HVAC control boards. Unlike store-bought power strips, our whole-home systems intercept surges at the main panel before they enter your wiring. We install Type 1 devices that meet UL 1449 standards, capable of diverting 50kA surges—common during hailstorms near Frisco.\n\nFor homes with expensive AV systems in Preston Hollow or home offices in Plano, we add secondary protection at subpanels. Each installation includes a monitoring app that alerts you to surge events and recommends maintenance. We particularly recommend this service for houses with aluminum wiring common in 1970s Arlington builds, as they're more prone to heat damage during electrical events.",
+        "process": [
+          "Step 1: Panel assessment for optimal device placement",
+          "Step 2: Installation of primary surge arrester at meter base",
+          "Step 3: Optional point-of-use protectors for sensitive equipment",
+          "Step 4: System validation with simulated surge testing"
+        ],
+        "benefits": [
+          "Protect against lightning and grid switching surges",
+          "Extend lifespan of appliances and electronics",
+          "Reduce fire risk from electrical arcs",
+          "Compatible with solar and generator systems"
+        ],
+        "faq": [
+          {
+            "question": "Does homeowners insurance cover surge damage?",
+            "answer": "Most policies exclude surge claims unless you have specific endorsements. Our $500-$800 investment often pays for itself after one major storm event."
+          },
+          {
+            "question": "How often do these systems need replacement?",
+            "answer": "We recommend inspection every 3 years—the sacrificial components degrade with each surge event. We'll notify you when it's time for service."
+          }
+        ]
+      },
+      {
+        "slug": "ceiling-fan-installation",
+        "name": "Ceiling Fan Installation & Repair",
+        "shortDescription": "Keep cool efficiently with properly installed airflow solutions.",
+        "description": "Texas heat demands strategic airflow, but many DIY fan installations in Dallas homes create hazards—wobbly units, overloaded circuits, or improper mounting in older plaster ceilings. We install Hunter and Casablanca fans with balanced blades that won't shake your light fixtures loose. For vaulted ceilings in Bishop Arts cottages, we use extended downrods for optimal air circulation.\n\nOur process includes circuit testing to ensure your existing wiring can handle the load, especially important in homes with original knob-and-tube systems. We retrofit mounting boxes to meet modern safety standards and install wall controls that match your home's aesthetic. For historic properties in McKinney's downtown district, we source period-appropriate fixtures that complement the architecture without sacrificing efficiency.",
+        "process": [
+          "Step 1: Structural assessment of ceiling joists and wiring",
+          "Step 2: Secure mounting with UL-rated hardware",
+          "Step 3: Precise balancing to eliminate wobble",
+          "Step 4: Smart switch integration upon request"
+        ],
+        "benefits": [
+          "Reduce AC reliance during 100°F+ days",
+          "Eliminate dangerous DIY wiring mistakes",
+          "Quiet operation with professional balancing",
+          "Add smart controls without rewiring"
+        ],
+        "faq": [
+          {
+            "question": "Can you install fans where no wiring exists?",
+            "answer": "Yes—we can run new lines from existing circuits or install wireless remotes. For plaster ceilings, we use specialized tools to minimize damage."
+          },
+          {
+            "question": "Why does my fan shake at high speed?",
+            "answer": "Usually due to unbalanced blades or improper mounting. We use laser balancers and reinforce mounts to stop the wobble permanently."
+          }
+        ]
+      },
+      {
+        "slug": "outdoor-lighting",
+        "name": "Landscape & Security Lighting",
+        "shortDescription": "Illuminate your property with weatherproof Dallas-tested designs.",
+        "description": "From highlighting live oaks in Highland Park to securing driveways in Far North Dallas, our outdoor lighting withstands Texas' extreme conditions. We use brass and copper fixtures that resist corrosion from humidity and salt-spray during storms. Path lights are installed with deep-set foundations to prevent leaning when clay soils expand after rains.\n\nFor security, we position motion-activated floods to cover blind spots common in local ranch-style home layouts. Our low-voltage LED systems cut energy use by 80% compared to old halogen setups. We particularly recommend timer-controlled lighting for vacation homes in Plano's golf communities, creating the appearance of occupancy to deter burglaries. All wiring is buried 18\" deep with warning tape to prevent future damage during landscaping projects.",
+        "process": [
+          "Step 1: Nighttime walkthrough to identify dark zones",
+          "Step 2: Design layout emphasizing safety and aesthetics",
+          "Step 3: Trenching and installation with GFCI protection",
+          "Step 4: Demonstration of control systems and timers"
+        ],
+        "benefits": [
+          "Deter burglars and improve nighttime visibility",
+          "Highlight architectural features and mature landscaping",
+          "Withstand hail up to 1.5\" diameter",
+          "Auto-adjust brightness for moon phases"
+        ],
+        "faq": [
+          {
+            "question": "How does lighting affect my home's curb appeal?",
+            "answer": "Properly placed uplighting can increase perceived value by 20%. We follow the 'less is more' principle—strategic illumination beats overdone displays."
+          },
+          {
+            "question": "Will solar lights work in my shaded yard?",
+            "answer": "Solar performs poorly under tree canopy. Our wired systems provide consistent brightness regardless of sunlight exposure, crucial for Oak Lawn properties with dense foliage."
+          }
+        ]
+      },
+      {
+        "slug": "generator-installation",
+        "name": "Standby Generator Installation",
+        "shortDescription": "Keep power flowing during Texas grid failures and storms.",
+        "description": "When icy winters knock out Dallas' power grid or summer brownouts strike, a Generac home standby generator keeps your essentials running. We size units based on your home's square footage and critical loads—prioritizing refrigerators, medical devices, and AC during 105°F heat waves. Installations include automatic transfer switches that activate within 10 seconds of an outage.\n\nWe pour reinforced concrete pads that won't shift with soil movement, common in Collin County's expansive clay. For noise-sensitive neighborhoods like those near White Rock Lake, we build sound-dampening enclosures that meet HOA decibel limits. Every installation includes coaching on maintenance schedules to keep your system ready for the next polar vortex or derecho wind event. We're one of few local electricians certified to wire generators into homes with solar arrays.",
+        "process": [
+          "Step 1: Load calculation and fuel source planning (natural gas/propane)",
+          "Step 2: Permitting and utility company coordination",
+          "Step 3: Pad construction and weatherproof conduit runs",
+          "Step 4: System testing with simulated outage scenarios"
+        ],
+        "benefits": [
+          "Automatic operation during outages—no manual startup",
+          "Power medical equipment during emergencies",
+          "Prevent food spoilage and pipe freezes",
+          "Integrate with existing solar power systems"
+        ],
+        "faq": [
+          {
+            "question": "How loud are standby generators?",
+            "answer": "Modern units operate at 60-70 dB—quieter than a vacuum. We can further reduce sound with custom barriers if you're near neighbors."
+          },
+          {
+            "question": "What maintenance do they require?",
+            "answer": "Bi-annual oil changes and monthly 20-minute exercise runs. We offer maintenance plans that handle everything—just check your app for status updates."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Panel Upgrade",
+        "text": "After our 1962 Lake Highlands home kept tripping breakers every summer, Horizon replaced our rusted 60-amp panel in one day. They preserved our original midcentury look while bringing our system into the 21st century. Our AC hasn't strained once this July.",
+        "date": "2025-07-15"
+      },
+      {
+        "name": "Aisha B.",
+        "rating": 5,
+        "service": "Whole-Home Surge Protection",
+        "text": "When a Plano thunderstorm fried our smart home system last spring, Horizon installed surge protection that's already saved our fridge and TVs during two subsequent storms. Their explanation of how it works gave us real peace of mind.",
+        "date": "2025-06-22"
+      },
+      {
+        "name": "Carlos R.",
+        "rating": 5,
+        "service": "Ceiling Fan Installation",
+        "text": "The team handled our 12' ceilings in the Bishop Arts District perfectly—no wobble at all even on high speed. They even matched the vintage brass switch plates we'd sourced from Round Top.",
+        "date": "2025-05-04"
+      },
+      {
+        "name": "Sophie K.",
+        "rating": 5,
+        "service": "Landscape Lighting",
+        "text": "Our Preston Hollow garden looks like a magazine spread at night now. The path lights survived baseball-sized hail that destroyed our neighbor's cheap fixtures. Worth every penny.",
+        "date": "2025-04-18"
+      },
+      {
+        "name": "James L.",
+        "rating": 5,
+        "service": "Standby Generator",
+        "text": "During the February ice storm, our Generac kicked on automatically and ran for 3 days straight. Horizon's team did the installation in December just in time—life savers!",
+        "date": "2025-03-02"
+      },
+      {
+        "name": "Naomi W.",
+        "rating": 5,
+        "service": "Emergency Repair",
+        "text": "When an outlet sparked behind our antique oak wainscoting in McKinney, Horizon had a tech out within 90 minutes. They found aluminum wiring degradation we never knew about and fixed it without damaging the historic trim.",
+        "date": "2025-01-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Dallas Electrician | Reliable Residential Electrical Services",
+        "description": "Licensed Dallas electricians providing panel upgrades, surge protection, and emergency repairs since 2011. Serving Fort Worth to McKinney."
+      },
+      "about": {
+        "title": "About Our Dallas Electrical Company | Horizon Electrical",
+        "description": "Learn why Dallas homeowners trust our local electricians for code-compliant, weather-resistant electrical solutions since 2011."
+      },
+      "services": {
+        "title": "Dallas Electrical Services | Expert Wiring & Installations",
+        "description": "Complete residential electrical services for North Texas homes—from historic properties to smart home upgrades."
+      },
+      "contact": {
+        "title": "Contact Dallas' Trusted Electricians | Horizon Electrical",
+        "description": "Schedule same-day electrical service in Dallas, Plano, Frisco and surrounding areas. Emergency calls answered 24/7."
+      },
+      "reviews": {
+        "title": "Dallas Electrical Company Reviews | Horizon Electrical",
+        "description": "Read verified customer experiences with our licensed electricians serving the DFW metroplex."
+      },
+      "service-areas": {
+        "title": "Dallas Electrical Service Areas | Horizon Electrical",
+        "description": "Local electricians serving Fort Worth, Plano, Frisco, McKinney and Arlington with prompt, professional service."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 14,
+      "projectsCompleted": "850+",
+      "satisfaction": "98%",
+      "teamSize": "22"
+    },
+    "serviceAreas": [
+      {
+        "city": "Fort Worth",
+        "slug": "fort-worth-tx",
+        "state": "TX",
+        "content": "Horizon Electrical proudly serves Fort Worth, TX, providing expert electrical services for its charming Craftsman bungalows and historic homes near downtown. Our team specializes in updating older electrical systems to meet modern safety standards while preserving the character of these classic homes. With hot, humid summers, we also ensure your cooling systems and electrical panels can handle the seasonal demand.",
+        "localContext": "Fort Worth features Craftsman bungalows and historic homes with unique electrical needs.",
+        "nearbyAreas": [
+          "Arlington",
+          "Benbrook",
+          "White Settlement"
+        ]
+      },
+      {
+        "city": "Plano",
+        "slug": "plano-tx",
+        "state": "TX",
+        "content": "In Plano, TX, Horizon Electrical helps homeowners in 1980s-90s established subdivisions maintain and upgrade their electrical systems. Many homes in this area require panel upgrades, GFCI installations, and whole-home surge protection to keep up with today's technology. Our team is experienced in working with the specific wiring standards of this era to ensure safety and reliability.",
+        "localContext": "Plano's subdivisions from the 1980s-90s often need electrical updates for modern living.",
+        "nearbyAreas": [
+          "Frisco",
+          "Richardson",
+          "Allen"
+        ]
+      },
+      {
+        "city": "Frisco",
+        "slug": "frisco-tx",
+        "state": "TX",
+        "content": "Horizon Electrical is a trusted provider for Frisco's newer construction homes from the 2000s-2020s. We specialize in smart home integrations, EV charger installations, and energy-efficient solutions tailored to modern builds. Frisco's rapid growth means many homeowners need reliable electricians to handle additions, remodels, and tech upgrades.",
+        "localContext": "Frisco's newer homes often feature smart technology and energy-efficient systems.",
+        "nearbyAreas": [
+          "Plano",
+          "McKinney",
+          "Little Elm"
+        ]
+      },
+      {
+        "city": "McKinney",
+        "slug": "mckinney-tx",
+        "state": "TX",
+        "content": "In McKinney, TX, Horizon Electrical serves historic downtown homes with care and precision. We understand the unique challenges of updating wiring in older properties while maintaining their historic integrity. From knob-and-tube replacements to adding modern conveniences, our team ensures your home stays safe and functional.",
+        "localContext": "McKinney's historic downtown homes require specialized electrical expertise.",
+        "nearbyAreas": [
+          "Frisco",
+          "Allen",
+          "Prosper"
+        ]
+      },
+      {
+        "city": "Arlington",
+        "slug": "arlington-tx",
+        "state": "TX",
+        "content": "Horizon Electrical provides top-tier electrical services for Arlington's 1960s-70s ranch homes. Many of these properties need updated wiring, lighting upgrades, and panel replacements to meet current electrical codes. Our team is familiar with the common issues in these homes, such as aluminum wiring, and offers safe, lasting solutions.",
+        "localContext": "Arlington's ranch-style homes often have outdated electrical systems that need modernization.",
+        "nearbyAreas": [
+          "Fort Worth",
+          "Grand Prairie",
+          "Mansfield"
+        ]
+      },
+      {
+        "city": "Dallas",
+        "slug": "dallas-tx",
+        "state": "TX",
+        "content": "Horizon Electrical is proud to serve Dallas, TX, offering comprehensive electrical solutions for its diverse range of homes and businesses. From historic properties to modern high-rises, we handle everything from routine maintenance to complex installations. Dallas's hot summers make reliable electrical systems essential for comfort and safety.",
+        "localContext": "Dallas's mix of historic and modern properties demands versatile electrical expertise.",
+        "nearbyAreas": [
+          "Garland",
+          "Irving",
+          "Mesquite"
+        ]
+      },
+      {
+        "city": "Garland",
+        "slug": "garland-tx",
+        "state": "TX",
+        "content": "In Garland, TX, Horizon Electrical helps homeowners and businesses with electrical repairs, upgrades, and new installations. Many homes in Garland were built in the mid-20th century and benefit from updated wiring and energy-efficient lighting. Our team ensures your electrical system can handle the demands of modern appliances and technology.",
+        "localContext": "Garland's mid-century homes often need electrical updates for safety and efficiency.",
+        "nearbyAreas": [
+          "Dallas",
+          "Richardson",
+          "Rowlett"
+        ]
+      },
+      {
+        "city": "Irving",
+        "slug": "irving-tx",
+        "state": "TX",
+        "content": "Horizon Electrical provides reliable electrical services for Irving's residential and commercial properties. Whether you're in a vintage home or a new build, our team offers expert solutions for lighting, panel upgrades, and more. Irving's hot summers mean your electrical system must be in top condition to handle increased cooling demands.",
+        "localContext": "Irving's mix of older and newer properties requires adaptable electrical services.",
+        "nearbyAreas": [
+          "Dallas",
+          "Grand Prairie",
+          "Coppell"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "panel-upgrades": "/images/service-panel-upgrades.webp",
+      "surge-protection": "/images/service-surge-protection.webp",
+      "ceiling-fan-installation": "/images/service-ceiling-fan-installation.webp",
+      "outdoor-lighting": "/images/service-outdoor-lighting.webp",
+      "generator-installation": "/images/service-generator-installation.webp"
+    },
+    "servicesResponsive": {
+      "panel-upgrades": {
+        "src": "/images/service-panel-upgrades.webp",
+        "srcset": "/images/service-panel-upgrades-400w.webp 400w, /images/service-panel-upgrades-800w.webp 800w, /images/service-panel-upgrades-1200w.webp 1200w, /images/service-panel-upgrades.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "surge-protection": {
+        "src": "/images/service-surge-protection.webp",
+        "srcset": "/images/service-surge-protection-400w.webp 400w, /images/service-surge-protection-800w.webp 800w, /images/service-surge-protection-1200w.webp 1200w, /images/service-surge-protection.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "ceiling-fan-installation": {
+        "src": "/images/service-ceiling-fan-installation.webp",
+        "srcset": "/images/service-ceiling-fan-installation-400w.webp 400w, /images/service-ceiling-fan-installation-800w.webp 800w, /images/service-ceiling-fan-installation-1200w.webp 1200w, /images/service-ceiling-fan-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "outdoor-lighting": {
+        "src": "/images/service-outdoor-lighting.webp",
+        "srcset": "/images/service-outdoor-lighting-400w.webp 400w, /images/service-outdoor-lighting-800w.webp 800w, /images/service-outdoor-lighting-1200w.webp 1200w, /images/service-outdoor-lighting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "generator-installation": {
+        "src": "/images/service-generator-installation.webp",
+        "srcset": "/images/service-generator-installation-400w.webp 400w, /images/service-generator-installation-800w.webp 800w, /images/service-generator-installation-1200w.webp 1200w, /images/service-generator-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
